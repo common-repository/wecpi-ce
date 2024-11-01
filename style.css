@@ -1,0 +1,43 @@
+#header2 { width:100%; height:164px; }
+#header3 { background:#3D3B38; width:100%; height:30px; }
+.logo { position:relative;background:url(images/logo.png) no-repeat; width:760px; height:164px; }
+.wecpi { position:absolute;top:20px;right:-170px;background:url(images/wecpi.png) no-repeat; width:204px; height:169px; }
+#main{width:900px}
+.infobox{width:auto;height:auto;padding:10px;background:#FFC}
+.wecpi_info{color:#F60;font-size:1.2em;}
+.wecpirowdata{}
+table.wecpirowdata
+{
+border:1px solid #c3c3c3;
+border-collapse:collapse;
+}
+
+table.wecpirowdata th
+{
+background-color:#e5eecc;
+border:1px solid #c3c3c3;
+padding:3px;
+vertical-align:top;
+}
+
+table.wecpirowdata td 
+{
+border:1px solid #c3c3c3;
+padding:5px;
+vertical-align:top;
+}
+#column { 
+	-moz-column-count: 3;
+	-moz-column-gap: 20px;
+	-moz-column-width: 30%;
+	-moz-column-rule-color: #bbb;
+	-moz-column-rule-style: solid;
+	-moz-column-rule-width: 1px;
+
+	-webkit-column-count: 3;
+	-webkit-column-gap: 20px;
+	-webkit-column-width: 30%;
+	-webkit-column-rule-color: #bbb;
+	-webkit-column-rule-style: solid;
+	-webkit-column-rule-width: 1px;
+}
